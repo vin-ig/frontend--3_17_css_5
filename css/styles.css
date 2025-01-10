@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Tavolga";
+    src: url("../assets/fonts/tavolga-free.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy Regular";
+    src: url("../assets/fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy Medium";
+    src: url("../assets/fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("../assets/fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy ExtraBold";
+    src: url("../assets/fonts/Gilroy-Extrabold.ttf");
+}
+
+
+body {
+    font-family: "Tavolga", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.bg-pink {
+    background: #eba8b1;
+}
+
+
+/* HEADER */
+.header {
+    padding-top: 38px;
+    padding-bottom: 29px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 0;
+}
+
+.menu {
+    padding-right: 56px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    padding-right: 40px;
+}
+
+.menu a {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-family: "Gilroy Medium";
+    color: rgb(119, 11, 29);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    border-color: inherit;
+}
+
+.contacts {
+    font-size: 16px;
+    font-family: "Gilroy Bold";
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
