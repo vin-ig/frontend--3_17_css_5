@@ -131,6 +131,8 @@ body {
     border-radius: 9999px;
     color: white;
     font-family: 'Gilroy Bold', sans-serif;
+    line-height: 1;
+    transition: all 400ms;
 }
 
 .button:hover {
@@ -139,8 +141,8 @@ body {
 }
 
 .button.button-main {
-    padding: 22px;
     width: 240px;
+    height: 60px;
     font-size: 18px;
 }
 
@@ -153,7 +155,7 @@ body {
 .advantages {
     background: #ffefef;
     padding-top: 119px;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
 }
 
 .advantages-title {
@@ -180,14 +182,9 @@ body {
 }
 
 .advantages-items {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.advantages-item {
-    width: 220px;
-    padding-bottom: 80px;
 }
 
 .advantages-item:hover .advantages-item-number {
@@ -225,6 +222,78 @@ body {
     color: rgb(51, 25, 7);
     line-height: 1.333;
     height: 100px;
+}
+
+
+/* PRODUCT */
+.products {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.products .container {
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 143px;
+}
+
+.product-items {
+    display: grid;
+    grid-template-columns: repeat(4, 263px);
+    gap: 136px 29px;
+}
+
+.product {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0 19px 25px;
+}
+
+.product-image {
+    height: 61px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 47px;
+    transition: all 400ms;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 26px;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details span {
+    font-size: 15px;
+    font-family: "Gilroy Regular";
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: left;
+}
+
+.product-details span:first-child {
+    padding-bottom: 16px;
+}
+
+.button.product-button {
+    width: 130px;
+    height: 50px;
+}
+
+.product:hover .product-image {
+    transform: scale(1.1);
 }
 
 
