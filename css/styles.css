@@ -195,14 +195,6 @@ body {
     color: #821328;
 }
 
-.advantages-item:hover .advantages-item-number span {
-    color: #821328;
-}
-
-.smooth-transition {
-    transition: all 400ms;
-}
-
 .advantages-item-number {
     display: flex;
     justify-content: center;
@@ -214,25 +206,9 @@ body {
     font-size: 60px;
     font-family: "Gilroy ExtraBold";
     color: rgb(255, 255, 255);
-    line-height: 35px;
+    line-height: 44px;
+    transition: all 400ms;
 }
-
-/* .advantages-item-number { */
-/*     border-radius: 50%; */
-/*     background-color: rgb(130, 19, 40); */
-/*     width: 70px; */
-/*     height: 70px; */
-/*     position: relative; */
-/*     text-align: center; */
-/* } */
-
-/* .advantages-item-number span { */
-/*     font-size: 60px; */
-/*     font-family: "Gilroy ExtraBold"; */
-/*     color: rgb(255, 255, 255); */
-/*     position: relative; */
-/*     bottom: -16px; */
-/* } */
 
 .advantages-item-title {
     padding-top: 13px;
