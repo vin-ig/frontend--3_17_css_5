@@ -94,6 +94,162 @@ body {
 }
 
 
+/* MAIN */
+.main {
+    padding-top: 143px;
+    padding-bottom: 145px;
+}
+
+.main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info {
+    max-width: 585px;
+}
+
+.main-info h1 {
+    padding-bottom: 60px;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+}
+
+.main-info p {
+    padding-bottom: 80px;
+    max-width: 360px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+}
+
+.button {
+    background: linear-gradient(90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    border: 0;
+    border-radius: 9999px;
+    color: white;
+    font-family: 'Gilroy Bold', sans-serif;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 9px 1px rgba(130, 19, 40, 0.5);
+}
+
+.button.button-main {
+    padding: 22px;
+    width: 240px;
+    font-size: 18px;
+}
+
+.main-image {
+    animation: pulse 1s infinite;
+}
+
+
+/* ADVANTAGES */
+.advantages {
+    background: #ffefef;
+    padding-top: 119px;
+    padding-bottom: 40px;
+}
+
+.advantages-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 88px;
+}
+
+.advantages-description h2 {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    max-width: 488px;
+    padding-bottom: 60px;
+}
+
+.advantages-description p {
+    font-size: 18px;
+    font-family: "Gilroy Regular";
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 400px;
+}
+
+.advantages-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    width: 220px;
+    padding-bottom: 80px;
+}
+
+.advantages-item:hover .advantages-item-number {
+    background: #eba8b1;
+    color: #821328;
+}
+
+.advantages-item:hover .advantages-item-number span {
+    color: #821328;
+}
+
+.smooth-transition {
+    transition: all 400ms;
+}
+
+.advantages-item-number {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    font-family: "Gilroy ExtraBold";
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+}
+
+/* .advantages-item-number { */
+/*     border-radius: 50%; */
+/*     background-color: rgb(130, 19, 40); */
+/*     width: 70px; */
+/*     height: 70px; */
+/*     position: relative; */
+/*     text-align: center; */
+/* } */
+
+/* .advantages-item-number span { */
+/*     font-size: 60px; */
+/*     font-family: "Gilroy ExtraBold"; */
+/*     color: rgb(255, 255, 255); */
+/*     position: relative; */
+/*     bottom: -16px; */
+/* } */
+
+.advantages-item-title {
+    padding-top: 13px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Gilroy ExtraBold";
+    color: rgb(51, 25, 7);
+
+}
+
+.advantages-item-text {
+    font-size: 15px;
+    font-family: "Gilroy Medium";
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    height: 100px;
+}
 
 
 
@@ -117,43 +273,8 @@ body {
 
 
 
+@keyframes pulse {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
