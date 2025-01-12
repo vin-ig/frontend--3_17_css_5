@@ -301,22 +301,87 @@ body {
 }
 
 
+/* ORDER */
+.order .container {
+    padding-top: 98px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+}
 
+.order-image-main {
+    justify-self: center;
+    align-items: center;
+}
 
+.order-form {
+    padding-left: 15px;
+}
 
+.order-form h2 {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    padding-bottom: 41px;
+}
 
+.order-form p {
+    font-size: 18px;
+    font-family: "Gilroy Regular";
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    padding-bottom: 23px;
+    max-width: 405px;
+}
 
+.order-form h3 {
+    font-size: 18px;
+    font-family: "Gilroy Bold";
+    color: rgb(18, 10, 6);
+    padding-top: 25px;
+    padding-bottom: 21px;
+}
 
+.order-form input {
+    display: block;
+    font-size: 15px;
+    font-family: "Gilroy Bold";
+    color: rgb(118, 12, 34);
+    margin-bottom: 15px;
+    border: 1px solid #821328;
+    border-radius: 9999px;
+    width: 294px;
+    height: 60px;
+    padding: 22px 26px;
+    box-sizing: border-box;
+    outline: none;
+}
 
+.order-form input::placeholder {
+    color: #c0707c;
+}
 
+.button.button-order {
+    width: 294px;
+    height: 60px;
+}
 
+.order-image-berry {
+    position: absolute;
+    animation: berry-move infinite ease-in-out alternate;
+}
 
+#berry-1 {
+    top: 142px;
+    animation-duration: 2s;
+}
 
-
-
-
-
-
+#berry-2 {
+    bottom: 195px;
+    right: 160px;
+    animation-duration: 3s;
+}
 
 
 
@@ -327,3 +392,12 @@ body {
 }
 
 
+@keyframes berry-move {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
