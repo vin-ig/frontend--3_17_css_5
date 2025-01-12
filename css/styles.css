@@ -43,6 +43,10 @@ body {
     background: #eba8b1;
 }
 
+.bg-lightpink {
+    background: #ffefef;
+}
+
 
 /* HEADER */
 .header {
@@ -153,7 +157,6 @@ body {
 
 /* ADVANTAGES */
 .advantages {
-    background: #ffefef;
     padding-top: 119px;
     padding-bottom: 120px;
 }
@@ -183,7 +186,8 @@ body {
 
 .advantages-items {
     display: grid;
-    grid-template-columns: repeat(4, 220px);
+    grid-template-columns: repeat(auto-fit, 220px);
+    grid-gap: 80px min(54px);
     justify-content: space-between;
 }
 
@@ -243,8 +247,8 @@ body {
 
 .product-items {
     display: grid;
-    grid-template-columns: repeat(4, 263px);
-    gap: 136px 29px;
+    grid-template-columns: repeat(auto-fill, 263px);
+    grid-gap: 136px 29px;
 }
 
 .product {
