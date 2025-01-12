@@ -15,9 +15,9 @@
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="#">Пироженки</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Оформить заказ</a></li>
+                <li><a href="#products">Пироженки</a></li>
+                <li><a href="#advantages">О нас</a></li>
+                <li><a href="#order">Оформить заказ</a></li>
             </ul>
         </nav>
         <div class="contacts">+375 (29) 368-98-68</div>
@@ -29,7 +29,7 @@
         <div class="main-info">
             <h1>Мягкие французские пироженки Macaroons</h1>
             <p>Побалуйте себя и своих близких самыми вкусными и ароматными домашними пироженками Macaroon!</p>
-            <button class="button button-main">Выбрать макарун</button>
+            <button onclick="location.href='#products'" class="button button-main">Выбрать макарун</button>
         </div>
         <div class="main-image">
             <img src="assets/images/macaroons-main.png" alt="Macaroons">
@@ -37,7 +37,7 @@
     </div>
 </section>
 
-<section class="advantages bg-lightpink">
+<section class="advantages bg-lightpink" id="advantages">
     <div class="container">
         <article class="advantages-title">
             <div class="advantages-description">
@@ -89,7 +89,7 @@
     </div>
 </section>
 
-<section class="products bg-pink">
+<section class="products bg-pink" id="products">
     <div class="container">
         <h2>Выберите свой макарун</h2>
         <article class="product-items">
@@ -103,7 +103,7 @@
                         <span>1 шт.</span>
                         <span>1.70 руб.</span>
                     </div>
-                    <button class="button product-button">Заказать</button>
+                    <button onclick="location.href='#order'" class="button product-button">Заказать</button>
                 </div>
             </figure>
             <figure class="product">
@@ -116,7 +116,7 @@
                         <span>1 шт.</span>
                         <span>1.70 руб.</span>
                     </div>
-                    <button class="button product-button">Заказать</button>
+                   <button onclick="location.href='#order'" class="button product-button">Заказать</button>
                 </div>
             </figure>
             <figure class="product">
@@ -129,7 +129,7 @@
                         <span>1 шт.</span>
                         <span>1.70 руб.</span>
                     </div>
-                    <button class="button product-button">Заказать</button>
+                   <button onclick="location.href='#order'" class="button product-button">Заказать</button>
                 </div>
             </figure>
             <figure class="product">
@@ -142,14 +142,14 @@
                         <span>1 шт.</span>
                         <span>1.70 руб.</span>
                     </div>
-                    <button class="button product-button">Заказать</button>
+                   <button onclick="location.href='#order'" class="button product-button">Заказать</button>
                 </div>
             </figure>
         </article>
     </div>
 </section>
 
-<section class="order bg-lightpink">
+<section class="order bg-lightpink" id="order">
     <div class="container">
         <div class="order-image-berry" id="berry-1">
             <img src="assets/images/strawberry-1.png" alt="Strawberry">
