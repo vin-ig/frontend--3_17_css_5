@@ -102,6 +102,7 @@ body {
 .main {
     padding-top: 143px;
     padding-bottom: 145px;
+    overflow: hidden;
 }
 
 .main .container {
@@ -155,6 +156,10 @@ body {
     z-index: 1;
 }
 
+.main-image img {
+    width: 100%;
+}
+
 .main-image::before,
 .main-image::after {
     content: '';
@@ -202,10 +207,14 @@ body {
     max-width: 400px;
 }
 
+.advantages-image img {
+    max-width: 100%;
+}
+
 .advantages-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, 220px);
-    grid-gap: 80px min(54px);
+    grid-gap: 80px min(30px);
     justify-content: space-between;
 }
 
@@ -267,6 +276,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, 263px);
     grid-gap: 136px 29px;
+    justify-content: center;
 }
 
 .product {
@@ -436,6 +446,10 @@ body {
     height: 35px;
     fill: white;
     padding-bottom: 15px;
+}
+
+.instagram svg:hover {
+    cursor: pointer;
 }
 
 .instagram span {
