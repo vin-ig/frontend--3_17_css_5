@@ -1,0 +1,123 @@
+/* 1024 - 1169 */
+@media screen and (max-width: 1169px) {
+    .menu,
+    .menu li:last-child {
+        padding-right: 0;
+    }
+
+    .product-items {
+        grid-template-columns: repeat(2, 263px);
+    }
+}
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    .header .contacts {
+        display: none;
+    }
+
+    .menu {
+        padding-right: 158px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .main {
+        padding-top: 70px;
+        padding-bottom: 62px;
+    }
+
+    .main .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-info {
+        text-align: left;
+    }
+
+    .main-info h1 {
+        padding-bottom: 74px;
+    }
+
+    .main-info p {
+        padding-bottom: 41px;
+    }
+
+    .main-image {
+        display: flex;
+        align-items: flex-end;
+        align-self: flex-end;
+        height: 358px;
+        padding-right: 35px;
+    }
+
+    .main-image img {
+        width: 530px;
+    }
+
+    .advantages {
+        text-align: center;
+    }
+
+    .advantages-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages-description h2 {
+        display: inline-block;
+    }
+
+    .advantages-description p {
+        padding-bottom: 40px;
+        max-width: 680px;
+    }
+
+    .advantages-image img {
+        width: 300px;
+    }
+
+    .advantages-items {
+        grid-template-columns: repeat(2, 220px);
+        justify-content: center;
+        grid-column-gap: min(54px);
+    }
+
+    .advantages-item-number {
+        justify-self: center;
+    }
+
+    .order .container {
+        align-items: flex-end;
+    }
+
+    .order-image-main {
+        order: 1;
+        position: relative;
+        bottom: -110px;
+        max-width: 352px;
+    }
+
+    .order-form {
+        padding-left: 0;
+    }
+
+    #berry-1 {
+        top: 337px;
+        right: calc(40%);
+    }
+
+    #berry-2 {
+        top: 231px;
+        right: 108px;
+    }
+
+    .present {
+        display: none;
+    }
+}
+
+

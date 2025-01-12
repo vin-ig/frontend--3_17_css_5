@@ -344,6 +344,10 @@ body {
     align-items: center;
 }
 
+.order-image-main img {
+    max-width: 100%;
+}
+
 .order-form {
     padding-left: 15px;
 }
