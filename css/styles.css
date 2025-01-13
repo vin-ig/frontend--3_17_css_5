@@ -498,6 +498,7 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     font-size: 0;
+    z-index: 1;
 }
 
 .present-circle {
@@ -511,10 +512,26 @@ body {
     margin-left: 9px;
 }
 
-.present-text {
+.present-label {
     transform: translateY(120px);
     opacity: 0;
     transition: all 600ms;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.present-label img {
+    display: block;
+    position: relative;
+}
+
+.present-label span {
+    font-size: 15px;
+    font-family: "Gilroy Medium";
+    color: rgb(119, 10, 29);
+    position: absolute;
+    padding-left: 11px;
 }
 
 .present-circle:hover {
@@ -522,7 +539,7 @@ body {
     cursor: pointer;
 }
 
-.present-circle:hover + .present-text {
+.present-circle:hover + .present-label {
     transform: unset;
     opacity: 1;
 }
