@@ -261,10 +261,54 @@
 @media screen and (max-width: 539px) {
     .menu {
         display: none;
+        position: fixed;
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 10;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+        /* padding: 200px 0 200px; */
+    }
+
+    .menu li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eba8b1;
+    }
+
+    .menu a {
+        color: #eba8b1;
     }
 
     .burger {
         display: block;
+    }
+
+    .close svg {
+        width: 24px;
+        height: 24px;
+        fill: #eba8b1;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
     }
 
     .footer {
